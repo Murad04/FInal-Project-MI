@@ -1,0 +1,8 @@
+# Ignore Python cache directories
+**/__pycache__/
+
+# Ignore model output artifacts
+**/model_output/
+
+# Ignore training/evaluation results
+**/results/

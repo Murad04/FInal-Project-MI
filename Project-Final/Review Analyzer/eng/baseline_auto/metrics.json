@@ -1,0 +1,111 @@
+{
+  "samples": 320,
+  "local": {
+    "title": "Local DistilBERT (model_output)",
+    "accuracy": 0.75625,
+    "report": {
+      "Negative": {
+        "precision": 0.7666666666666667,
+        "recall": 0.8914728682170543,
+        "f1-score": 0.8243727598566308,
+        "support": 129.0
+      },
+      "Neutral": {
+        "precision": 0.6,
+        "recall": 0.29577464788732394,
+        "f1-score": 0.39622641509433965,
+        "support": 71.0
+      },
+      "Positive": {
+        "precision": 0.7851851851851852,
+        "recall": 0.8833333333333333,
+        "f1-score": 0.8313725490196079,
+        "support": 120.0
+      },
+      "accuracy": 0.75625,
+      "macro avg": {
+        "precision": 0.717283950617284,
+        "recall": 0.6901936164792373,
+        "f1-score": 0.6839905746568595,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 0.7366319444444445,
+        "recall": 0.75625,
+        "f1-score": 0.7320027105486139,
+        "support": 320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        115,
+        6,
+        8
+      ],
+      [
+        29,
+        21,
+        21
+      ],
+      [
+        6,
+        8,
+        106
+      ]
+    ]
+  },
+  "flan_t5_zero_shot": {
+    "title": "FLAN-T5 Zero-shot Baseline",
+    "accuracy": 0.746875,
+    "report": {
+      "Negative": {
+        "precision": 0.8027210884353742,
+        "recall": 0.9147286821705426,
+        "f1-score": 0.855072463768116,
+        "support": 129.0
+      },
+      "Neutral": {
+        "precision": 0.5,
+        "recall": 0.028169014084507043,
+        "f1-score": 0.05333333333333334,
+        "support": 71.0
+      },
+      "Positive": {
+        "precision": 0.7041420118343196,
+        "recall": 0.9916666666666667,
+        "f1-score": 0.8235294117647058,
+        "support": 120.0
+      },
+      "accuracy": 0.746875,
+      "macro avg": {
+        "precision": 0.6689543667565646,
+        "recall": 0.644854787640572,
+        "f1-score": 0.5773117362887183,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 0.6985876932133801,
+        "recall": 0.746875,
+        "f1-score": 0.6653579497016198,
+        "support": 320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        118,
+        1,
+        10
+      ],
+      [
+        29,
+        2,
+        40
+      ],
+      [
+        0,
+        1,
+        119
+      ]
+    ]
+  }
+}
